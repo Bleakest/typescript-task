@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Weather sound</h1>
+  
+  <div class="controls">
+    <div class="volume-control">
+      <label for="volume">Volume</label>
+      <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+    </div>
+    
+    <div class="sound-buttons">
+      <button id="rain-btn">
+        <img src="./assets/icons/cloud-rain.svg" alt="Rain" class="button-icon">
+      </button>
+      <button id="forest-btn">
+        <img src="./assets/icons/sun.svg" alt="Forest" class="button-icon">
+      </button>
+      <button id="winter-btn">
+        <img src="./assets/icons/cloud-snow.svg" alt="Winter" class="button-icon">
+      </button>
+    </div>
+  </div>
+  <script src="../src/index.js"></script>
+</body>
+</html>
